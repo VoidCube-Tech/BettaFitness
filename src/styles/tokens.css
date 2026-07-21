@@ -1,0 +1,22 @@
+:root {
+  --pine: #4b414e;
+  --pine-dark: #241f26;
+  --moss: #765f7d;
+  --purple-night: #241f26;
+  --purple-plum: #432a49;
+  --purple-orchid: #765f7d;
+  --purple-glow: #a98bb2;
+  --sage: #eee8f0;
+  --sage-soft: #f8f5f9;
+  --paper: #ffffff;
+  --white: #ffffff;
+  --ink: #272229;
+  --muted: #716a73;
+  --line: #e6e0e7;
+  --brass: #9a82a0;
+  --danger: #a23a34;
+  --shell: 1280px;
+  --sans: 'Schibsted Grotesk', sans-serif;
+  --mono: 'IBM Plex Mono', monospace;
+  --ease: cubic-bezier(.22, 1, .36, 1);
+}
