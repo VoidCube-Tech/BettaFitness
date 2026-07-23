@@ -1,1 +1,0 @@
-import{j as n,L as e}from"./index-DqV2NOPl.js";function s(){return n.jsxs("main",{className:"not-found",children:[n.jsx("span",{children:"404"}),n.jsx("h1",{children:"Essa página não está no catálogo."}),n.jsx("p",{children:"O endereço pode ter mudado ou não existe."}),n.jsx(e,{to:"/",children:"Voltar para a vitrine"})]})}export{s as default};
