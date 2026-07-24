@@ -1,0 +1,1 @@
+import{a as e,i as t}from"./index-CtPAf7LI.js";var n=t();function r(){return(0,n.jsxs)(`main`,{className:`not-found`,children:[(0,n.jsx)(`span`,{children:`404`}),(0,n.jsx)(`h1`,{children:`Essa página não está no catálogo.`}),(0,n.jsx)(`p`,{children:`O endereço pode ter mudado ou não existe.`}),(0,n.jsx)(e,{to:`/`,children:`Voltar para a vitrine`})]})}export{r as default};
