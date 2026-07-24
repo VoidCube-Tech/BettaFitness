@@ -1,5 +1,5 @@
 ﻿import { lazy, type ReactNode, Suspense } from 'react'
-import { BrowserRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import { AuthProvider, useAuth } from './store/AuthContext'
 import { ProductProvider } from './store/ProductContext'
 import logo from './assets/images/betafitness-logo.png'
@@ -19,7 +19,7 @@ function ProtectedRoute({ children }: { children: ReactNode }) {
 
 export default function App() {
   return <ProductProvider>
-    <AuthProvider><BrowserRouter>
+    <AuthProvider><HashRouter>
       <Suspense fallback={<div className="route-loader"><div className="route-loader__logo"><img src={logo} alt="BetaFitness moda feminina" /></div><p>Preparando sua coleção fitness…</p></div>}>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -30,7 +30,7 @@ export default function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Suspense>
-    </BrowserRouter></AuthProvider>
+    </HashRouter></AuthProvider>
   </ProductProvider>
 }
 
